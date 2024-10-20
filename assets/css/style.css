@@ -123,6 +123,17 @@ img { max-width: 100%; }
 
 .section-3-box h3 { margin-top: 0; padding: 0 0 10px 0; }
 
+.centered-list {
+	display: flex;          /* Use flexbox to center the list */
+	justify-content: center; /* Center horizontally */
+}
+
+ul {
+	list-style-position: inside; /* Keep bullets inside the list */
+	text-align: left;            /* Left-align the text */
+	padding-left: 0;             /* Remove any default left padding */
+	margin: 0 auto;              /* Center the list itself */
+}
 
 /***** Footer *****/
 
